@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Montserrat:wght@400;500;600;900&family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  background-color: #222b4b;
+  height: 100vh;
+}
+
+.App .app-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.App .app-container .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0;
+}
+
+.App .app-container .navbar .logo h1 {
+  font-weight: 700;
+  color: #e9413f;
+  letter-spacing: 1px;
+}
+
+.App .app-container .navbar .nav-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .app-container .navbar .nav-links ul li {
+  margin: 15px;
+}
+
+.App .app-container .navbar .nav-links ul li a {
+  text-decoration: none;
+  color: #f6f7f5;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=index.css.map */
