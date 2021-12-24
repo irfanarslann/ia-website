@@ -8,8 +8,8 @@
 }
 
 .App {
-  background-color: #222b4b;
-  height: 100vh;
+  background-color: #f6f7f5;
+  height: 100%;
 }
 
 .App .app-container {
@@ -21,36 +21,210 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 20px 0;
 }
 
-.App .app-container .navbar .logo h1 {
+.App .app-container .navbar h1 {
   font-weight: 700;
   color: #e9413f;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-.App .app-container .navbar .nav-links ul {
+.App .app-container .top-hero {
+  height: 600px;
+  padding-right: 20px;
+}
+
+.App .app-container .top-hero .content-left {
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+
+.App .app-container .top-hero .content-left h3 {
+  color: #e9413f;
+  font-size: 22px;
+}
+
+.App .app-container .top-hero .content-left .desc {
+  margin-top: 10px;
+}
+
+.App .app-container .top-hero .content-left .desc span {
+  font-size: 39px;
+  color: black;
+  font-weight: 700;
+}
+
+.App .app-container .top-hero .content-left p {
+  color: black;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.App .app-container .top-hero .content-left .social-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  list-style-type: none;
+  margin-top: 25px;
 }
 
-.App .app-container .navbar .nav-links ul li {
-  margin: 15px;
+.App .app-container .top-hero .content-left .social-links li {
+  margin-right: 30px;
 }
 
-.App .app-container .navbar .nav-links ul li a {
-  text-decoration: none;
+.App .app-container .top-hero .content-left .social-links li a {
+  color: #e9413f;
+  border: 1px solid #e9413f;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.App .app-container .top-hero .content-left .social-links li a:hover {
+  background: #e9413f;
+  border-color: #f6f7f5;
   color: #f6f7f5;
-  font-weight: 500;
-  text-transform: uppercase;
+}
+
+.App .app-container .top-hero .content-left .cv-button {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 13px;
+}
+
+.App .app-container .top-hero .content-left .cv-button a {
+  text-decoration: none;
+  background: #e9413f;
+  color: #f6f7f5;
+  padding: 12px;
+  border-radius: 24px;
+  width: 120px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.App .app-container .top-hero .content-left .cv-button a:hover {
+  background: #f6f7f5;
+  color: #e9413f;
+  border: 1px solid #e9413f;
+}
+
+.App .app-container .flex-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.App .app-container .flex-area .f-10 {
+  max-width: 10%;
+  -webkit-box-flex: 10%;
+      -ms-flex: 10%;
+          flex: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-20 {
+  max-width: 20%;
+  -webkit-box-flex: 20%;
+      -ms-flex: 20%;
+          flex: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-30 {
+  max-width: 30%;
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-40 {
+  max-width: 40%;
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-50 {
+  max-width: 50%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 25px;
+  min-height: 100%;
+}
+
+.App .app-container .flex-area .f-60 {
+  max-width: 60%;
+  -webkit-box-flex: 60%;
+      -ms-flex: 60%;
+          flex: 60%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-70 {
+  max-width: 70%;
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-80 {
+  max-width: 80%;
+  -webkit-box-flex: 80%;
+      -ms-flex: 80%;
+          flex: 80%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-90 {
+  max-width: 90%;
+  -webkit-box-flex: 90%;
+      -ms-flex: 90%;
+          flex: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App .app-container .flex-area .f-100 {
+  max-width: 100%;
+  -webkit-box-flex: 100%;
+      -ms-flex: 100%;
+          flex: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /*# sourceMappingURL=index.css.map */
