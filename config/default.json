@@ -1,4 +1,4 @@
 {
   "jwtSecret": "secret",
-  "mongoURI": "mongodb+srv://samsepiol:Ragekeysi12.@irfanarslanwebsite.wkiou.mongodb.net/IrfanArslanWeb?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://<username>:<password>.@irfanarslanwebsite.wkiou.mongodb.net/IrfanArslanWeb?retryWrites=true&w=majority"
 }
